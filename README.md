@@ -3,7 +3,9 @@
 import random
 import statistics
 
-nombres = ["Juan", "María", "Pedro", "Ana", "Luis", "Sofía", "Carlos", "Laura", "Miguel", "Lucía"]
+nombres = = ["Juan Pérez”,”María García”,”Carlos López”,”Ana Martínez”,”Pedro Rodríguez”,”Laura Hernández”,”Miguel
+Sánchez”,”Isabel Gómez”,”Francisco Díaz”,”Elena Fernández"]
+
 
 salarios = [random.randint(500000, 1000000) for _ in range(len(nombres))]
 
