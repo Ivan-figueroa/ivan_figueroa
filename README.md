@@ -53,7 +53,7 @@ def main():
                 salario = salarios[i]
                 print(f"nombre empleado salario")
                 print(f"{nombre}:      ${salario}")
-            input("Presione Enter para continuar...")
+  
         
         elif opcion == "2":
             print("Reporte de sueldos:")
@@ -61,7 +61,7 @@ def main():
                 nombre = nombres[i]
                 print(f" Nombre    Salario     Ds salud  Ds afp  Liquido")
                 print(f"{nombre}: {salario}  {salud}    {afp}   {liquido}")
-            input("Presione Enter para continuar...")
+
         
         elif opcion == "3":
             minimo, maximo, medio = saldos_bajos_altos_medios(salarios)
@@ -69,7 +69,7 @@ def main():
             print(f"Saldos más bajos: ${minimo}")
             print(f"Saldos más altos: ${maximo}")
             print(f"Saldo medio: ${medio}")
-            input("Presione Enter para continuar...")
+
             
         elif opcion == "4":
             media_geom = media_geometrica(salarios)
@@ -77,7 +77,7 @@ def main():
                 print(f"Media geométrica de sueldos: ${media_geom:.2f}")
             else:
                 print("No se puede calcular la media geométrica de una lista vacía.")
-            input("Presione Enter para continuar...")
+
         
         elif opcion == "5":
             print("Saliendo del programa...")
